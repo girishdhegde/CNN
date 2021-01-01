@@ -1,4 +1,4 @@
-# Convolution Neural Network
+# Convolution Neural Network(In Complete)
 
 CNN's are very powerfull deep learning tools. These are the the main features of CNN's which make them to prefer over [**Fully Connected Neural Networks**](https://github.com/girishdhegde/nn-lab):
 
@@ -22,6 +22,7 @@ CNN's are very powerfull deep learning tools. These are the the main features of
     *  Loss: MSELoss, BCELoss
     
     *  [Optimizers](https://github.com/girishdhegde/optimizers): SGD, Momentum SGD, RMSprop, **Adam**
+
 To Do
 5.  Generalization: CNN's of any custom shape should be created
 6.  Support **Visualization**:
