@@ -9,10 +9,10 @@ CNN's are very powerfull deep learning tools. These are the the main features of
 
  This repo. contains implementation of CNN from **scratch in pure python and numpy**.
 ***
-## Features :
+## Highlights:
 ***
 
-1.  Modular: Seperate **conv2d, maxpool2d, view, flatten layer**  classes with their own **forward** and **backward** functions.
+1.  Modular: Seperate **conv2d, view, flatten layer**  classes with their own **forward** and **backward** functions.
 2.  Supports **strided convolution**
 3.  Supports **padding**
 4.  Supports:
@@ -23,16 +23,22 @@ CNN's are very powerfull deep learning tools. These are the the main features of
     
     *  [Optimizers](https://github.com/girishdhegde/optimizers): SGD, Momentum SGD, RMSprop, **Adam**
 
-To Do
-5.  Generalization: CNN's of any custom shape should be created
-6.  Support **Visualization**:
- 
-## Here's How To Run The Code:
+To Do:
+**Visualization**:
+ itr49
+## Here's How To Use/Run The Code:
 ***
-### Requirements:
-1.  numpy
-2.  matplotlib(For visualization if required)
+To use convolution layer
 
+```
+import numpy as np
+from conv2d import Conv2d, MSELoss
+# layer init
+my_conv = Conv2d(in_ch, out_ch, k_sz, stride, bias=False, padding=(0, 0), act=act, optim=optim)
+```
 
-# To Do:
-Only **layers** are implemented. So need to join these layers to create fully functional CNN and should support **Fully Connected** output layers.
+To test the code for learning edge detection:
+
+`python edge.py`
+
+<img src="./out/itr1.png" width="400"/> <img src="./out/itr49.png" width="400"/>
