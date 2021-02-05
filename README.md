@@ -1,4 +1,4 @@
-# Convolution Neural Network(In Complete)
+# Convolution Neural Network
 
 CNN's are very powerfull deep learning tools. These are the the main features of CNN's which make them to prefer over [**Fully Connected Neural Networks**](https://github.com/girishdhegde/nn-lab):
 
