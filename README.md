@@ -26,7 +26,7 @@ CNN's are very powerfull deep learning tools. These are the the main features of
 To Do:
 **Visualization**:
  itr49
-## Here's How To Use/Run The Code:
+## Usage
 ***
 To use convolution layer
 
