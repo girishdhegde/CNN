@@ -9,7 +9,7 @@ CNN's are very powerfull deep learning tools. These are the the main features of
 
  This repo. contains implementation of CNN from **scratch in pure python and numpy**.
 ***
-## Highlights:
+## Highlights
 ***
 
 1.  Modular: Seperate **conv2d, view, flatten layer**  classes with their own **forward** and **backward** functions.
